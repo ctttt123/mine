@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的相册</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav {
+		width: 100%;
+		height: 50px;
+		background-color: #eb6ea8;
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+	}
+
+	.nav td {
+		padding-left: 7em;
+		font-size: 25px;
+	}
+
+	#span1 span {
+		font-size: 10px;
+		margin-left: 25px;
+	}
+
+	.nav a {
+		text-decoration: none;
+		color: grey;
+	}
+
+	.nav a:hover {
+		color: rgb(140, 219, 230);
+	}
+    .neirong1 img {
+		width: 100%;
+		height: 300px;
+	}
+    .show1 {
+		padding-left: 5em;
+		margin-top: 2em;
+		margin-left: 4em;
+		float: left;
+		width: 242px;
+		height: 500px;
+		border-radius: 15px;
+		background-color:  #ad292928;
+	}
+
+	.show1 td {
+		margin-left: 1em;
+		padding-top: 1em;
+		text-align: left;
+		font-weight: bold;
+	}
+
+	.show1 img {
+		border-radius: 79px;
+		width: 100px;
+		height: 100px;
+		margin-left: 1em;
+		margin-top: 1em;
+	}
+	.show2 {
+		float: left;
+		margin-left: 4em;
+		margin-top: 2em;
+		padding-left: 3em;
+		padding-right: 3em;
+		color: black;
+		background-color: #ad292928;
+		width: 810px;
+		height: 730px;
+		border-radius: 15px;
+		font-size: 16px;
+	}
+	.show2 th {
+		font-size: 25px;
+		padding-top: 10px;
+		border-bottom: 3px solid rgba(107, 164, 190, 0.836);
+	}
+	.show2 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #img1 td {
+        padding-top: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .lastnav {
+		width: 100%;
+		background-color: rgba(128, 128, 128, 0.144);
+		padding:10px;
+		margin-top: 8em;
+		border-top: 1px solid black;
+		text-align: center;
+		float: inline-end;
+		font-size: 10px;
+	}
+</style>
+<body>
+    <body>
+	<!-- 个人空间导航 -->
+	<div>
+		<table class="nav">
+			<tr>
+				<td style="color: black;">个人<span style="color: rgb(9, 130, 211);">空间</span></td>
+				<td id="span1">
+					<span style="padding-left: 30em;"><a href="个人主页.html">首页</a></span>
+					<span><a href="我的爱好.html">我的爱好</a></span>
+					<span><a href="我的相册.html">我的相册</a></span>
+					<span><a href="#">技能介绍</a></span>
+					<span style="font-size: 20px;padding-left: 3em;">欢迎光临~</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!-- 轮播图片 -->
+	<div class="neirong1">
+		<img src="风景.jpg" alt="">
+	</div>
+    <!-- 内容栏 -->
+     <div class="case1">
+		<div class="show1">
+			<img src="4.png" alt="">
+			<table>
+				<tr>
+					<td>姓名：</td>
+					<td>郭敏佳</td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td>女</td>
+				</tr>
+				<tr>
+					<td>年龄：</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>班级：</td>
+					<td>大数据2401班</td>
+				</tr>
+				<tr>
+					<td>家乡：</td>
+					<td>中国 重庆</td>
+				</tr>
+			</table>
+		</div>
+		<div class="show2">
+			<table>
+				<tr>
+					<th>我的相册</th>
+				</tr>
+			</table>
+            <table id="img1">
+                <tr>
+                    <td>
+                        <a href="2.png"><img src="2.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="3.png"><img src="3.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="4.png"><img src="4.png" alt=""></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="5.png"><img src="5.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="6.png"><img src="6.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="7.png"><img src="7.png" alt=""></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="8.jpg"><img src="8.jpg" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="9.jpg"><img src="9.jpg" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="10.jpg"><img src="10.jpg" alt=""></a>
+                    </td>
+                </tr>
+            </table>
+		</div>
+            <!-- 底部导航栏 -->
+	 <div class="lastnav">
+		郭敏佳的个人网页
+	 </div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的爱好</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav {
+        width: 100%;
+        height: 50px;
+        background-color: #eb6ea8;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav td {
+        padding-left: 7em;
+        font-size: 25px;
+    }
+
+    #span1 span {
+        font-size: 10px;
+        margin-left: 25px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: grey;
+    }
+
+    .nav a:hover {
+        color: rgb(140, 219, 230);
+    }
+
+    .neirong1 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .show1 {
+        padding-left: 5em;
+        margin-top: 2em;
+        margin-left: 4em;
+        float: left;
+        width: 242px;
+        height: 500px;
+        border-radius: 15px;
+        background-color: #ad292928;
+    }
+
+    .show1 td {
+        margin-left: 1em;
+        padding-top: 1em;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .show1 img {
+        border-radius: 79px;
+        width: 100px;
+        height: 100px;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .show2 {
+        float: left;
+        margin-left: 4em;
+        margin-top: 2em;
+        padding-left: 3em;
+        padding-right: 3em;
+        color: black;
+        background-color: #ad292928;
+        width: 810px;
+        height: 700px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+
+    .show2 th {
+        font-size: 25px;
+        padding-top: 10px;
+        border-bottom: 3px solid rgba(107, 164, 190, 0.836);
+    }
+
+    .show2 td {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .show2 img {
+        width: 200px;
+        height: 120px;
+        border-radius: 5px;
+    }
+    #hobby1 tr {
+        width: 850px;
+        display: inline-block;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+    }
+    #hobby1 span {
+        color: rgb(96, 164, 196);
+        font-size: 16px;
+    }
+    .lastnav {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.144);
+        padding: 10px;
+        margin-top: 8em;
+        border-top: 1px solid black;
+        text-align: center;
+        float: inline-end;
+        font-size: 10px;
+    }
+</style>
+
+<body>
+    <!-- 个人空间导航 -->
+    <div>
+        <table class="nav">
+            <tr>
+                <td style="color: black;">个人<span style="color: rgb(9, 130, 211);">空间</span></td>
+                <td id="span1">
+                    <span style="padding-left: 30em;"><a href="个人主页.html">首页</a></span>
+                    <span><a href="我的爱好.html">我的爱好</a></span>
+                    <span><a href="我的相册.html">我的相册</a></span>
+                    <span><a href="#">技能介绍</a></span>
+                    <span style="font-size: 20px;padding-left: 3em;">欢迎光临~</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- 轮播图片 -->
+    <div class="neirong1">
+        <img src="风景.jpg" alt="">
+    </div>
+    <!-- 个人资料展示 -->
+    <div class="case1">
+        <div class="show1">
+            <img src="4.png" alt="">
+            <table>
+                <tr>
+                    <td>姓名：</td>
+                    <td>郭敏佳</td>
+                </tr>
+                <tr>
+                    <td>性别：</td>
+                    <td>女</td>
+                </tr>
+                <tr>
+                    <td>年龄：</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>班级：</td>
+                    <td>大数据2401班</td>
+                </tr>
+                <tr>
+                    <td>家乡：</td>
+                    <td>中国 重庆</td>
+                </tr>
+            </table>
+        </div>
+        <div class="show2">
+            <table>
+                <tr>
+                    <th>我的兴趣爱好</th>
+                </tr>
+            </table>
+            <table id="hobby1">
+                <tr>
+                    <td><img src="摄影.jpg" alt=""></td>
+                    <td style="padding-left: 20px;">摄影<br><span>摄影是我最大的爱好之一，我喜欢用镜头捕捉生活的美好瞬间。摄影不仅让我学会了用不同的视角观察世界，也让我结识了许多志同道合的朋友。</span></td>
+                </tr>
+                <tr>
+                    <td><img src="旅行.jpg" alt=""></td>
+                    <td style="padding-left: 20px;">旅行<br><span>旅行让我能够探索未知的世界，体验不同的文化，丰富人生的阅历。我喜欢独自背包旅行，也喜欢和朋友一起规划精致的行程。我的旅行哲学是“慢旅行”。不赶景点，而是深入当地生活，与当地人交流，品尝地道美食。</span></td>
+                </tr>
+                <tr>
+                    <td><img src="阅读.jpg" alt=""></td>
+                    <td style="padding-left: 20px;">阅读<br><span>阅读是我日常生活中不可或缺的一部分。我平均每月阅读3-4本书，涉猎范围包括文学、历史、心理学和科技。最喜欢的作家是村上春树和加西亚·马尔克斯。我有一个坚持多年的习惯：每天睡前至少阅读30分钟。</span></td>
+                </tr>
+                <tr>
+                    <td><img src="编程.jpg" alt=""></td>
+                    <td style="padding-left: 20px;">编程<br><span>作为大数据工程技术专业的学生,编程既是为我的专业,也是我的爱好.我特别喜欢用代码创造实用的工具和有趣的项目。</span></td>
+                </tr>
+            </table>
+        </div>
+        <!-- 底部导航栏 -->
+        <div class="lastnav">
+            郭敏佳的个人网页
+        </div>
+</body>
+
+</html>
